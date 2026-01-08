@@ -46,6 +46,8 @@ platforms:
     name: "抖音"
   - id: "zhihu"
     name: "知乎"
+  - id: "github"
+    name: "github"
 
 
 # ===============================================================
@@ -171,7 +173,7 @@ notification:
   # 推送渠道配置
   channels:
     feishu:
-      webhook_url: ""                 # 飞书机器人 webhook URL
+      webhook_url: ${FEISHU_WEBHOOK_URL}                # 飞书机器人 webhook URL
 
     dingtalk:
       webhook_url: ""                 # 钉钉机器人 webhook URL
